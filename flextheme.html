@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+
+    </style>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Georgia Pro, serif;
+    }
+
+    .main1 {
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid red; */
+
+    }
+
+    .navbar {
+        width: 20%;
+        height: max-content;
+        /* border: 1px solid black; */
+        /* padding-bottom: 30px; */
+        display: inline-block;
+        vertical-align: top;
+        position: sticky;
+        top: -70px;
+
+    }
+
+    #carry-icon {
+        margin-top: 30px;
+        margin-left: 10%;
+    }
+
+    .img-div {
+        width: 75%;
+        height: max-content;
+        /* border: 1px solid black; */
+        margin-left: 10%;
+        margin-top: 20px;
+    }
+
+    .buterfly-img {
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .nav {
+        width: 75%;
+        height: 330px;
+        /* border: 1px solid blue; */
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    .ul {
+        list-style: none;
+    }
+
+    .li {
+        margin-top: 15px;
+        font-size: 15px;
+        font-weight: 400;
+
+    }
+
+    .icon-div1 {
+        width: 75%;
+        height: max-content;
+        /* border: 1px solid green; */
+        margin-left: 10%;
+        margin-top: 10%;
+    }
+
+    #icon1 {
+        font-size: 19px;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .para-div1 {
+        width: 80%;
+        height: max-content;
+        /* border: 1px solid pink; */
+        margin-left: 10%;
+        margin-top: 10%;
+
+    }
+
+
+    .flower-div {
+        width: 79%;
+        height: max-content;
+        border: 2px solid purple;
+        display: inline-block;
+    }
+
+    .uper-icondiv {
+        width: 100%;
+        height: 50px;
+        /* border: 1px solid blue; */
+        position: relative;
+        display: none;
+        padding: 1px;
+    }
+
+    #shop-icon {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+    }
+
+    #search-icon {
+        position: absolute;
+        right: 50px;
+        top: 10px;
+    }
+
+    #m-icon {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+
+    .side-navbar {
+        width: 100%;
+        height: 100vh;
+        /* border: 2px solid black; */
+        margin-top: 50px;
+        background-color: lightgray;
+        margin-left: -100%;
+        transition: 1s;
+    }
+
+
+
+
+
+    .ul2 {
+        list-style: none;
+    }
+
+    .li2 {
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 17px;
+        font-weight: 400;
+    }
+
+    /* #down-icon {
+        margin-left: 82%;
+    } */
+
+    .studio-div {
+        width: 100%;
+        height: 130px;
+        background-color: rgb(249, 247, 245);
+        padding: 1px;
+        display: none;
+
+    }
+
+    .studio-imgdiv {
+        width: 200px;
+        height: 110px;
+        /* border: 1px solid red; */
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .studio-img {
+        width: 200px;
+        height: max-content;
+
+
+    }
+
+    .p-main {
+        text-align: center;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .span-main {
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+
+    .flower-img {
+        width: 100%;
+
+    }
+
+    .photos-div {
+        background-color: rgb(249, 247, 245);
+        width: 80%;
+        margin-left: 20%;
+        height: max-content;
+        /* border: 1px solid black; */
+        padding: 1px;
+        padding-bottom: 50px;
+    }
+
+    .gallery-div {
+        width: 200px;
+        height: 50px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 50px;
+
+    }
+
+    .h-glry {
+        font-size: 25px;
+        font-weight: 400;
+        color: rgb(88, 87, 87);
+        text-align: center;
+    }
+
+    .red-line {
+        width: 100px;
+        height: .5px;
+        background-color: brown;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .photos-div1 {
+        width: 98%;
+        margin: auto;
+        height: max-content;
+        border: 3px solid red;
+        margin-top: 30px;
+
+
+    }
+
+    .trout-div {
+        width: 23.5%;
+        height: max-content;
+        /* border: 1px solid green; */
+        position: relative;
+        display: inline-block;
+        margin-left: 1%;
+        padding: 30px;
+
+    }
+
+    .grey-div {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid blue; */
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(246, 245, 243, 0.645);
+        opacity: 0;
+    }
+
+    .trout-div:hover .grey-div {
+        opacity: 1;
+    }
+
+    .quick-div {
+        width: 90px;
+        height: 30px;
+        background-color: lightsalmon;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top: 65%;
+        left: 35%;
+        opacity: 0;
+        transition: 0.36s;
+    }
+
+    .p-quick {
+        margin-top: 5%;
+    }
+
+    .trout-div:hover .quick-div {
+        opacity: 1;
+        top: 45%;
+
+    }
+
+    .trout-img {
+        width: 100%;
+
+    }
+
+    .text-trout {
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 5%;
+        color: green;
+        text-align: center;
+    }
+
+    .para-2 {
+        color: rgb(78, 77, 77);
+    }
+
+    .follow-div {
+        width: 80%;
+        margin-left: 20%;
+        height: 45vh;
+        background-color: rgb(236, 236, 236);
+        padding: 1px;
+    }
+
+    .flw-div {
+        width: 60%;
+        height: 150px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 400;
+        position: relative;
+
+    }
+
+    .input4 {
+        width: 90%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-top: 10px;
+        color: rgb(236, 236, 236);
+        font-size: 16px;
+    }
+
+    .input5 {
+        width: 60%;
+        height: 40px;
+        border-radius: 20px;
+        padding-left: 10px;
+        margin-top: 10px;
+        display: block;
+        margin-left: 5%;
+        color: rgb(236, 236, 236);
+        font-size: 16px;
+
+    }
+
+    .btn4 {
+        /* display: inline-block; */
+        width: 30%;
+        height: 40px;
+        /* margin-left: 50%; */
+        /* margin-top: -20px; */
+        border-radius: 20px;
+        position: absolute;
+        right: 4.5%;
+        top: 60%;
+        background-color: rgb(236, 236, 236);
+        font-size: 16px;
+    }
+
+    .btn4:hover {
+        background-color: black;
+        transition: 0.36s;
+        color: white;
+        font-weight: 500;
+    }
+
+    .section5 {
+        width: 80%;
+        height: 120vh;
+        background-color: rgb(249, 247, 245);
+        margin-left: 20%;
+        padding: 1px;
+    }
+
+    .pic-divs {
+        width: 95%;
+        height: 40%;
+        /* border: 1px solid blue; */
+        margin-left: 2.5%;
+        margin-top: 5%;
+
+    }
+
+    .pic-div5 {
+        width: 30%;
+        height: 80%;
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 2%;
+        vertical-align: top;
+        
+    }
+    .img-div5{
+        width: 100%;
+        height: max-content;
+        overflow: hidden;
+        /* border:1px solid green; */
+    }
+
+    .img-frame {
+        width: 100%;
+        height: max-content;
+        transition: .5s;
+    }
+    .img-frame:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+
+    .text-div5 {
+        width: 82%;
+        height: max-content;
+        /* border:1px solid green ; */
+        margin-left: 5%;
+    }
+
+    .p-text5 {
+        font-size: 22px;
+
+    }
+
+    .p2-text5 {
+        width: 100%;
+        height: max-content;
+        /* border: 1px solid red; */
+        margin-top: 5%;
+    }
+
+    .studio-div6 {
+        width:550px;
+        height: 400px;
+        /* border: 1px solid black; */
+        margin: auto;
+    }
+
+    .img6 {
+        width: 200px;
+        height: 100px;
+        margin-left: 33%;
+    }
+
+    .text-div6 {
+        width: max-content;
+        height: 50px;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        margin: auto;
+
+    }
+
+    .p-text6 {
+        color: rgb(115, 110, 105);
+        text-align: center;
+    }
+
+    .span6 {
+        color: rgb(102, 91, 85);
+        font-weight: 700;
+
+    }
+
+    .p-text61 {
+        text-align: center;
+        color: rgb(102, 91, 85);
+    }
+
+    .span61 {
+        color: rgb(183, 128, 124);
+    }
+    .btn6{
+        width: 150px;
+        height: 40px;
+        margin-top: 70px;
+        margin-left: 200px;
+        background-color: white;
+        border: 1px solid black;
+        font-size: 15px;
+        font-weight: 500;
+
+
+    }
+    .text61{
+        width: 400px;
+        height: 20px;
+        /* border: 1px solid blue; */
+        margin: auto;
+        margin-top: 40px;
+        color: rgb(102, 91, 85) ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*..............Media Querry........... */
+    @media screen and (max-width:1024px) {
+        .quick-div {
+            width: 45%;
+            left: 28%;
+
+        }
+
+        .input5 {
+            width: 90%;
+        }
+
+        .btn4 {
+            width: 90%;
+            top: 95%;
+
+        }
+    }
+
+    @media screen and (max-width:800px) {
+
+        .navbar {
+            display: none;
+        }
+
+
+        .p-main {
+            display: none;
+        }
+
+        .flower-div {
+            margin-left: 0;
+            width: 100%;
+        }
+
+
+        .uper-icondiv {
+            display: block;
+        }
+
+        .studio-div {
+            display: block;
+        }
+
+        .uper-icondiv #m-icon:hover~.side-navbar {
+            margin-left: 0;
+        }
+
+        .photos-div {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .trout-div {
+            width: 47%;
+            margin-top: 20px;
+            margin-left: 1.7%;
+        }
+
+        .quick-div {
+            display: none;
+        }
+
+        .follow-div {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .section5 {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .pic-divs {
+            height: max-content;
+        }
+
+        .pic-div5 {
+            width: 98%;
+            margin-left: 1%;
+            margin-top: 20px;
+            height: max-content;
+            padding-bottom: 50px;
+        }
+
+        .p-text5 {
+            margin-top: 10px;
+        }
+
+        .p2-text5 {
+            margin-top: 10px;
+        }
+        .studio-div6{
+            margin-top: 30px;
+        }
+        .img6{
+            width: 100px;
+            height: 70px;
+            margin-left: 40%;
+        }
+
+
+
+
+
+    }
+    @media screen and (max-width:600px){
+        .studio-div6 {
+        width:450px;
+    }
+    .text-div6{
+        width: 440px;
+        height: 60px;
+    } 
+    .btn6{
+        margin-left: 150px;
+    }
+}
+    
+
+    @media screen and (max-width:500px) {
+        .trout-div {
+            width: 90%;
+            /* margin-top: 20px; */
+            margin-left: 5%;
+        }
+        .studio-div6{
+            width: 90%;
+        }
+        .text-div6{
+            width: 90%;
+            height: max-content;
+        }
+        .btn6{
+            margin-left: 30%;
+        }
+        .text61{
+            width: 90%;
+            height: max-content;
+            text-align: center;
+        }
+
+    }
+
+    @media screen and (max-width:390px) {
+        .btn4 {
+            margin-top: 25px;
+        }
+    }
+</style>
+
+<body>
+    <div class="main1">
+        <div class="navbar">
+            <i id="carry-icon" class="fa-solid  fa-cart-shopping"></i>
+            <div class="img-div">
+                <img class="buterfly-img" src="./butterfly_1600x.jpg" alt="">
+            </div>
+            <div class="nav">
+                <ul class="ul">
+                    <li class="li">Home<a href=""></a></li>
+                    <li class="li">Art Prints:Flora<a href=""></a></li>
+                    <li class="li">Art Prints:Fauna<a href=""></a></li>
+                    <li class="li">Art Prints:Modern<a href=""></a></li>
+                    <li class="li">Original Paintings<a href=""></a></li>
+                    <li class="li">Studio Blog<a href=""></a></li>
+                    <li class="li">About the Artist<a href=""></a></li>
+                    <li class="li">Contact<a href=""></a></li>
+                    <li class="li">FAQ<a href=""></a></li>
+                    <li class="li">Buy Flex<a href=""></a></li>
+
+                </ul>
+            </div>
+            <div class="icon-div1">
+                <i id="icon1" class="fa-brands fa-youtube"></i>
+                <i id="icon1" class="fa-brands fa-square-facebook"></i>
+                <i id="icon1" class="fa-brands fa-square-twitter"></i>
+                <i id="icon1" class="fa-brands fa-square-instagram"></i>
+                <i id="icon1" class="fa-brands fa-tiktok"></i>
+                <i id="icon1" class="fa-brands fa-linkedin"></i>
+            </div>
+
+            <div class="para-div1">
+                <p>© 2022 Flex Theme Studio.
+
+                    Designed by Out of the Sandbox.
+
+                    Powered by Shopify</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="flower-div">
+
+            <div class="uper-icondiv">
+                <i id="shop-icon" class="fa-solid fa-cart-shopping"></i>
+                <i id="search-icon" class="fa-solid fa-magnifying-glass"></i>
+                <i id="m-icon" class="fa-solid fa-bars"></i>
+                <div class="side-navbar">
+                    <ul class="ul2">
+                        <li class="li2">Home </li>
+                        <li class="li2">Art Print:Flora <i id="down-icon" class="fa-solid fa-chevron-down"></i></li>
+                        <li class="li2">Art Print:Modrn <i id="down-icon" class="fa-solid fa-chevron-down"></i></li>
+                        <li class="li2">Art Print:Fauna <i id="down-icon" class="fa-solid fa-chevron-down"></i></li>
+                        <li class="li2">Original Paintings</li>
+                        <li class="li2">Studio Blog</li>
+                        <li class="li2">Abot the Artist</li>
+                        <li class="li2">Contact</li>
+                        <li class="li2">FAQ</li>
+                        <li class="li2">Buy Flex</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="studio-div">
+                <div class="studio-imgdiv">
+                    <img class="studio-img" src="./studio__logo-brown_1600x.png" alt="">
+
+                </div>
+            </div>
+
+            <p class="p-main"> <span class="span-main">Get a third print FREE</span>when you
+                buy two - this weekend only!</p>
+            <img class="flower-img" src="./flowers_1600x.jpg" alt="">
+        </div>
+
+
+        <div class="photos-div">
+            <div class="gallery-div">
+                <h1 class="h-glry">From The Gallery</h1>
+                <div class="red-line"></div>
+            </div>
+            <div class="photos-div1">
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop195_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./blaze2_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop149_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop195_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="photos-div1">
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop127_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop189_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop177_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./wake1_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="photos-div1">
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop110_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./webss21_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop217_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+                </div>
+
+                <div class="trout-div">
+                    <div class="grey-div"></div>
+                    <div class="quick-div">
+                        <p class="p-quick">Quick View</p>
+                    </div>
+                    <img class="trout-img" src="./shop707_1600x.jpg" alt="">
+                    <div class="text-trout">
+                        <p>Trout no.2</p>
+                        <p class="para-2">from $28.00 CAD</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+        <div class="follow-div">
+            <div class="flw-div">
+                <p>Follow my Art Journey </p>
+                <input class="input4" type="text" placeholder="First Name">
+                <input class="input5" type="text" placeholder="Email*">
+                <button class="btn4">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="section5">
+            <div class="pic-divs">
+                <div class="pic-div5">
+                    <div class="img-div5">
+                    <img class="img-frame" src="./framing_1600x.jpg" alt="">
+                    </div>
+                    <div class="text-div5">
+                        <p class="p-text5">Tips on Framing Prints and Paintings</p>
+                        <div class="p2-text5">
+                            <p>May 14, 2019 1 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pic-div5">
+                   <div class="img-div5">
+                    <img class="img-frame" src="./post-tools2_1600x.jpg" alt="">
+                   </div>
+                    <div class="text-div5">
+                        <p class="p-text5">Beginners Guide to art <br> Supplies</p>
+                        <div class="p2-text5">
+                            <p>May 02, 2019 1 min read</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pic-div5">
+                    <div class="img-div5">
+                    <img class="img-frame" src="./post-101_1600x.jpg" alt="">
+                    </div>
+                    <div class="text-div5">
+                        <p class="p-text5">Studio Workshops: Painting 101</p>
+                        <div class="p2-text5">
+                            <p>April 17, 2019 1 min read
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="studio-div6">
+                <img class="img6" src="./studio__logo-brown_1600x.png" alt="">
+                <div class="text-div6">
+                    <p class="p-text6">All the lovely artwork in this demo shop is courtesy of
+                        artist <span class="span6"> Sarah Martinez.</span>
+                    </p>
+                    <p class="p-text61">To purchase, please visit <span class="span61"> Snoogs + Wilde.</span></p>
+                </div>
+                <button class="btn6">Canada (CAD $)</button>
+                <div class="text61">
+                    © 2022 Flex Theme Studio. Designed by Out of the Sandbox.
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
